@@ -84,19 +84,14 @@ header ul a{
     }
 }
 .container{
-    /* height: 600px; */
     height: 600px;
     align-items: center;
-    /* background-color: blue; */
     margin: auto;
     max-width: 600px;
     padding: 32px;
     text-align: center;
     display: grid;
     grid-template-rows: 1fr 2.5fr;
-    /* flex-direction: column;
-    justify-content: space-around; */
-    /* flex-grow: 1; */
 }
 .container1{
     margin-top: 20px;
