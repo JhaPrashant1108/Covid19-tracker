@@ -186,10 +186,7 @@ input{
     justify-content: center;
     display: flex;
     flex-direction: column;
-
-    /* transform: translate(50%, 50%); */
     transform-origin: center center;
-    /* background-color: black; */
     transition: all 0.5s ease-in;
     
 }
@@ -199,7 +196,6 @@ input{
 }
 .radio {
     display: none;
-    /* width: 100%; */
 }
 .lines {
     width: 20px;
