@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID19-Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    {{>header}}
+    <section class="container">
+        <div class="searchbox">
+            <h2>Search by Country</h2>
+            {{>country}}
+        </div>
+        <div class="output">
+            <h1>{{message}}</h1>
+            <div class="confirmed">Total : {{confirmed}}</div>
+            <div class="recovered">Recovered : {{recovered}}</div>
+            <div class="deaths"> Deceased : {{deaths}}</div>
+        </div>
+    </section>
+    {{>footer}}
+    <script src="/javascript/app.js"></script>
+</body>
+
+</html>
