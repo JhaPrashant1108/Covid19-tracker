@@ -100,20 +100,7 @@ header ul a{
     
 }
 
-/* input ,select{
-    width: 200px;
-    height: 30px;
-    margin-top:15px ;
-    padding-left: 5px;
-    font-weight: bolder;
-} */
-/* button{
-    height: 30px;
-    width: 50px;
-    background-color: crimson;
-    border: none;
-    font-weight: bold;
-} */
+
 .selectBox {
     display: flex;
     width: 300px;
