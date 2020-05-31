@@ -5,3 +5,5 @@ India and around the globe
 
 live deployment of this application on heroku
 https://covid19-tracker-prashant.herokuapp.com/
+
+:)
